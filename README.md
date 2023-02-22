@@ -1,6 +1,6 @@
 # CRUD API about Lana Del Rey's discography :kiss: :heart_decoration: :cherries: :lipstick: :high_heel:
 
-This API was built using Node.js and Express to provide a CRUD service on Lana Del Rey's discography. It allows users to add, modify, search, and delete albums from the artist's discography.
+This API was built using Node.js and Express to provide a CRUD service on Lana Del Rey's discography. It allows users to add, edit, search, and delete albums from the artist's discography.
 
 ## Getting Started :star:
 
