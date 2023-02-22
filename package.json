@@ -1,7 +1,27 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "mongoose": "^6.9.2",
     "node": "^19.6.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "api_ldr",
+  "version": "1.0.0",
+  "description": "Api about lana del rey album",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lauracelis/Api-LDR.git"
+  },
+  "author": "Laura Celis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lauracelis/Api-LDR/issues"
+  },
+  "homepage": "https://github.com/Lauracelis/Api-LDR#readme"
 }
