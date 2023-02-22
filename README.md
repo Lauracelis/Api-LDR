@@ -2,6 +2,8 @@
 
 This API was built using Node.js and Express to provide a CRUD service on Lana Del Rey's discography. It allows users to add, edit, search, and delete albums from the artist's discography.
 
+![api ldr](/img/api.PNG)
+
 ## Getting Started :star:
 
 To set up and run this API, follow the following steps:
