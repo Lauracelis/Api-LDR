@@ -11,7 +11,7 @@ const url = process.env.URL;
 const app = express();
 
 // Import the routes module
-const routes = require("./routes/route");
+const routes = require("./src/routes/route");
 
 // Import the CORS module
 const cors = require('cors');

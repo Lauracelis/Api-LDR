@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const albumController = require("../../controller/albumController")
+const albumController = require("../controller/albumController")
 
 // initializes a router instance from Express and imports the albumController module
 router
