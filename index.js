@@ -1,9 +1,10 @@
 // Import the express and mongoose modules
 const express = require("express");
 const mongoose = require("mongoose");
+require('dotenv').config();
 
 // Set the server port
-const port = 3030;
+const port = process.env.PORT||3030;
 
 // Create a new express app
 const app = express();
@@ -34,11 +35,7 @@ const connectionOptions = {
   useUnifiedTopology: true,
 };
 
-// Set the database URL and credentials
-const user = "lauracelis29";
-const password = "Lucky2021...";
-const dbname = "discography";
-const url = `mongodb+srv://${user}:${password}@cluster0.zvfnon6.mongodb.net/${dbname}`;
+
 
 // Disable the strict query mode for mongoose
 mongoose.set("strictQuery", false);
