@@ -5,6 +5,7 @@ require('dotenv').config();
 
 // Set the server port
 const port = process.env.PORT||3030;
+const url = process.env.URL;
 
 // Create a new express app
 const app = express();
@@ -14,6 +15,8 @@ const routes = require("./routes/route");
 
 // Import the CORS module
 const cors = require('cors');
+
+
 
 // Set the options for CORS
 const corsOption={
