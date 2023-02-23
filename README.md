@@ -2,7 +2,7 @@
 
 This API was built using Node.js and Express to provide a CRUD service on Lana Del Rey's discography. It allows users to add, edit, search, and delete albums from the artist's discography.
 
-
+![api ldr](/img/api.PNG)
 
 ## Getting Started :star:
 
@@ -19,10 +19,10 @@ To set up and run this API, follow the following steps:
 The API offers the following endpoints to access Lana Del Rey's discography:
 
 * GET /Album: Get a list of all albums in the discography.
-* GET /Album/:id: Get a specific album by its ID.
+* GET /Album/:id Get a specific album by its ID.
 * POST /newAlbum: Create a new album in the discography.
-* PUT /Album/:id: Update an existing album in the discography.
-* DELETE /ReamoveAlbum/:id: Delete a specific album by its ID.
+* PUT /Album/:id Update an existing album in the discography.
+* DELETE /ReamoveAlbum/:id Delete a specific album by its ID.
 
 * For more information on the parameters and response codes of each endpoint, check out the API's Swagger documentation.
 
