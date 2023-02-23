@@ -5,7 +5,7 @@ require('dotenv').config();
 
 // Set the server port
 const port = process.env.PORT||3030;
-const url = process.env.URL;
+
 
 // Create a new express app
 const app = express();
@@ -32,7 +32,7 @@ app.use(cors(corsOption));
 // Parse incoming request data as JSON
 app.use(express.json());
 
-// Set the database connection options
+//Set the database connection options
 const connectionOptions = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -45,7 +45,7 @@ mongoose.set("strictQuery", false);
 
 // Connect to the database using the provided URL and options
 mongoose
-  .connect(url, connectionOptions)
+  .connect(process.env.URL, connectionOptions)
   .then(() => console.log("successful connection"))
   .catch((err) => console.error(err));
 
